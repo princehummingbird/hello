@@ -1,0 +1,370 @@
+div.box1 {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
+}
+
+.box1:hover {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
+}
+
+div.box2 {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
+}
+
+.box2:hover {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700px;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
+}
+
+div.box3 {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700px;
+height:60px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:hidden;
+}
+
+.box3:hover {
+background:rgba(201, 202, 222, 0.7);
+text-align:center;
+color:#000;
+width:700px;
+height:255px;
+border:1px solid black;
+transition:all ease 2s;
+border-radius:5px;
+overflow:auto;
+}
+
+div.boxfloat {
+background:rgba(201, 202, 222,.7);
+color:#000;
+border:1px solid black;
+position:fixed;
+text-align:center;
+border-radius:5px;
+left:0px;
+bottom:0px;
+width:165px;
+height:200px;
+overflow:auto;
+}
+
+body {background: url("https://imgur.com/a/2HvaE.png") fixed;background-repeat: no-repeat;background-size: cover;color: #000;}
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+color: #000;
+}
+
+h1, h3 , .sidebar h3 {
+font-family: 'Amatic SC', Arial, cursive !important;
+text-align: left;
+color: #000;
+border-bottom: 1px solid #000;
+}
+
+/* BUTTONS */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+background: rgba(157, 143, 178, 0.7);
+color: #000;
+border: 1px solid #000;
+text-shadow: none;
+font-weight: bold;
+font-size: 14px;
+border-radius: 5px;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+ 
+/* LINKS */
+ 
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+border-bottom: 1px solid #000000;
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+/* TOPBAR */
+ 
+.topbar {
+background: rgba(201, 202, 222, 0.7);
+border: 1px solid #000;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+.badge {
+background: rgba(201, 202, 222, 0.7);
+border: 1px solid #000;
+ font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+/* NAVBAR */
+ 
+.main {
+background: rgba(201, 202, 222, 0.5);
+border: 1px solid #000;
+box-shadow: none;
+ font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+.navbar {
+background: rgba(201, 202, 222, 0.7);
+border-bottom: 1px solid #000;
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+.navbar-default .navbar-nav > li > a {
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+.navbar-default .navbar-nav li a:hover {
+color: #000;
+background: #9d8fb2;
+border-left: 1px solid #000;
+border-right: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+} 
+ 
+ 
+ 
+/* SIDEBAR */
+ 
+.sidebar {
+background: rgba(201, 202, 222, 0.21);
+border: 0px solid #000;
+border-bottom: 1px solid #000;
+border-left: 1px solid #000;
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+.col-md-3 .panel {
+background: rgba(201, 202, 222, 0.7);
+border: 1px solid #000;
+box-shadow: none;  
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+.progress-bar {
+background: #9d8fb2;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+.progress {
+background: #fffff;
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+/* text on progress bars */
+.progress div {color: #000;}
+ 
+/* CHAT */
+ 
+.chat_light, .chat_dark {
+background: rgba(201, 202, 222, 0.7);
+font-size: 16px;
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+.chatContainer {
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+.userstolen {
+background: none;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+
+.alert-danger {
+color: #000;
+background: rgba(157, 143, 178, 0.7);
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+.alert-success {
+color: #000;
+background: rgba(246, 202, 169, 0.7);
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+.breadcrumb {
+background:  rgba(201, 202, 222, 0.7);
+font-size: 13px;
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+.breadcrumb>.active {
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+ 
+h1 small, h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Carter One";
+color: #000;
+font-family: 'Amatic SC', Arial, cursive;
+}
+ 
+.col-md-9 {
+background: none;
+border: 0px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+/* TABLES */
+ 
+#lion_image {
+border-radius: 25px;
+overflow: hidden;
+border: 1px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+ 
+.table, .item {
+border: 1px solid #000;
+background: rgba(223, 223, 236, 0.9);
+border-collapse: separate;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+
+.table .right, .table .right_odd {
+background: none;
+border: 0px solid #000;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+
+/* top and bottom of boxes */
+div .feature, .cave-grid, div .left, .mound-grid,  .table .bottom,  .table .top, .table th, .item-header, .item-footer {
+border: 0px solid #000;
+background: rgba(201, 202, 222, 0.7);
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+/* cave and mound boxes */
+.cave-grid, div .left, .mound-grid {
+border: 1px solid #000;
+background: #C9CADE;
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+/* left part inside box */
+.table .left {
+border: 1px solid #000;
+background: rgba(157, 143, 178, 0.7);
+color: #000;
+font-family: 'Josefin Slab', Arial, serif;
+}
+
+/* right part inside box */
+.inner-table .right {
+background: rgba(246, 202, 169, 0.7);
+border: 1px solid #000;
+border-left: none;
+font-family: 'Josefin Slab', Arial, serif;
+ color: #000;
+}
+
+/* logo */
+body > div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+ content: url('https://i.imgur.com/ByeBMNM.png')}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+width: 10px;
+}
+  
+/* part the scroll sits on*/
+::-webkit-scrollbar-track {
+background-color: #C9CADE;
+}
+  
+/* The thingy that moves */
+::-webkit-scrollbar-thumb {
+background-color:  #D1DFFF;
+border-radius: 0px;
+border: none;
+}
+
+/* UNSEEN TEXT THAT SHOULD ALWAYS BE BLACK */
+textarea {color:black!important; font-size: 16px;}
+
+input[tpye="text"] {color:black!important; font-size: 16px;}
+
+select {color:black!important; font-size: 16px;}
+
+ 
+ /* fill in for extra info */
+
+ 
+ /* HTML is 
+<div class="box1"> 
+TEXT HERE
+</div>
+<div class="box2"> 
+TEXT HERE
+</div>
+<div class="box3"> 
+TEXT HERE
+</div>
+<div class="boxfloat"> 
+TEXT HERE
+</div>
+<div class="boxfloat">Floating box</div> */
